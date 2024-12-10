@@ -9,7 +9,6 @@ import pl.lodz.p.ias.io.zasoby.utils.ResourceStatus;
 @Getter
 @Setter
 @Entity
-@Table(name = "resources")
 @NoArgsConstructor
 public class Resource {
     @Id

@@ -5,12 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-//TODO: zamienic location w zaleznosci od odpowiednich modulow
-
 @Getter
 @Setter
 @Entity
-@Table(name = "warehouses")
 @NoArgsConstructor
 public class Warehouse {
     @Id

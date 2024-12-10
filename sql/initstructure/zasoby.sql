@@ -1,11 +1,13 @@
+drop table warehouses;
 CREATE TABLE warehouses (
-                            id BIGINT AUTO_INCREMENT PRIMARY KEY,
+                            id BIGINT PRIMARY KEY,
                             warehouse_name VARCHAR(255) NOT NULL,
                             location VARCHAR(255) NOT NULL
 );
 
+drop table resources;
 CREATE TABLE resources (
-                           id BIGINT AUTO_INCREMENT PRIMARY KEY,
+                           id BIGINT PRIMARY KEY,
                            resource_name VARCHAR(255) NOT NULL,
                            resource_type VARCHAR(255) NOT NULL,
                            resource_quantity INT NOT NULL,
